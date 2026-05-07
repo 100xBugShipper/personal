@@ -1,0 +1,12 @@
+Batch learning is used to train the model once on a set of data offline (not on
+a server) and once the model is trained, we push it to a server for public use.
+
+Disadvantages -
+1- To update or to train the model on newer dataset we have to pull down the
+model and retrain it on the new data and push it again to the server. This
+process can happen across some interval. Lets say for a week or per day.
+
+2- It is not instantaneous. The model is not self learning once it is uploaded
+on the server. There is an overhead of pulling down the model and then
+retraining it again. Which is not cost effective and users will not be able to
+query the model on the most recent lot of data.

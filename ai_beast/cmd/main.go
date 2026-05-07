@@ -163,7 +163,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 			return m, tea.Quit
 
-		case "ctrl+m": // Switch model
+		case "ctrl+j": // Switch model
 			m.currentModel = switchModel(m.currentModel)
 			return m, nil
 

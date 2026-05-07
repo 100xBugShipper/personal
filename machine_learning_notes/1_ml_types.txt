@@ -1,0 +1,68 @@
+Types of Machine learning ->
+----------------------------
+
+1- Supervised learning -> 2 types -> Regression and classification.
+----------------------------
+
+* Regression -> For a given output the model has to predict a number from infinite
+possible numbers.
+* Classification -> For a given input the model has to classify the output. Its
+more categorical and has finite number of outputs( limited outputs ).
+
+##############################################################################
+
+2- Unsupervised learning -> 4 types -> Anamoly Detection, Clustering,
+----------------------------
+Association rule learning, Dimensionality Reduction
+
+* Clustering -> Given different inputs, the algorithm makes a cluster of those
+inputs and try to find some pattern out of it.
+
+* Dimensionality Reduction -> Given a set of high dimension data which has more
+the 3 columns (i.e cannot be plotted on a graph) this technique helps to find
+relationships between those inputs (columns) and helps reduce the number of
+dimensions from N to lets say 3 or 2 so that it can be plotted on a graph 2d/3d.
+
+* Association Rule learning -> This helps determine relationships between
+variables in the dataset. (Walmart story for beer selling with diapers).
+
+* Anamoly Detection(Outlier Detection) -> This helps in identify those
+datapoints in our main dataset which are deviated significantly from the main
+dataset and indicate possibly an error, unusual event etc.
+
+##############################################################################
+
+3. Semi-Supervised ->
+----------------------------
+* Google photos -> It asks us to tag one person in one photo and for the rest of
+the photos it knows that who is that person we tagged earlier. So essentially we
+just told the model ONCE the correct output for that particular input and then
+it handled the unsupervised learning behind the scenes on its own. In a group of
+photos or single photos it was able to identify which person was who. We only
+told the model ONCE(supervised) that this person is "X" and this person is "Y" and it
+correctly tagged X and Y in all the photos on its own(unsupervised)
+
+##############################################################################
+
+4. Reinforcement Learning ->
+----------------------------
+We start from the scratch, we dont give any dataset to our model to learn from.
+The model tries to guess the output for a given input and we tell it if the
+model output was correct or not. The model learns from repeating mistakes again
+and again and learning from it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

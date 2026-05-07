@@ -1,0 +1,18 @@
+customers table - customer_id, name
+orders - order_id, order_amount
+
+create table customers,
+id AUTO_INCREMENT(INT) PRIMARY_KEY,
+name varchar(30)
+
+create table orders,
+order_id AUTO_INCREMENT(INT) PRIMARY_KEY,
+order_amount varchar(10)
+customers(customer_id) FOREIGN_KEY
+
+select name, count(orders.order_id) as order_count from customers left join orders on
+customers.customer_id = orders.customers_id group by order_count;
+
+
+
+
